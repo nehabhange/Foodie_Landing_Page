@@ -13,7 +13,7 @@ function Intro() {
             <button className={styles.button}>DISCOVER</button>
         </div>
         <div className={styles.card}>
-            <Image src="/img/Avocado.png" width="100%" height="100%"  layout="fill" objectFit='cover' alt=""/>
+            <Image src="/img/Avocado.png"  width="100%" height="100%"  layout="fill" objectFit='cover' alt=""/>
         </div>
 
     </div>

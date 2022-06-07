@@ -4,7 +4,7 @@ import Link from "next/Link"
 function Navbar() {
   return (
     <div className={styles.container}>
-        <Link href="/">AVOCADO</Link>
+        <Link href="/">PIZZERIA</Link>
         <ul className={styles.list}>
             <li className={styles.listItems}>
             <Link href="/products/design">DESIGN</Link>
