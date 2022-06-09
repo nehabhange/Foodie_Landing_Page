@@ -20,7 +20,7 @@ function Footer() {
         height = "40px"
         alt = "" / >
         <
-        /a> <
+        /a>{" "} <
         /h1>{" "} <
         /div>{" "} <
         div className = { styles.cardL } >
