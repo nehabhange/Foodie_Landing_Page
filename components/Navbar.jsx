@@ -2,6 +2,7 @@ import React from 'react'
 import styles from "../styles/Navbar.module.css"
 import Link from "next/link";
 function Navbar() {
+  const [open,setOpen]=useState(false);
   return (
     <div className={styles.container}>
        <Link href="/">AGENCYOPS</Link>
