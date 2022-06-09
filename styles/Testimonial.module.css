@@ -54,20 +54,19 @@
     font-weight: 200;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width:480px) {
     .container {
-        height: auto;
         padding: 20px;
     }
     .title {
-        margin-bottom: 40px;
         font-size: 50px;
+        margin-bottom: 100%;
     }
     .card {
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
     }
 }
