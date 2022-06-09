@@ -59,7 +59,7 @@
 .media {
     width: 85%;
     height: 85%;
-    background-color: yellow;
+    background-color: #efefddea;
     border-radius: 50%;
     overflow: hidden;
     transition: all 1s ease;

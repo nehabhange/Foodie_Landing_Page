@@ -4,22 +4,22 @@ import Link from "next/Link"
 function Navbar() {
   return (
     <div className={styles.container}>
-        <Link href="/">PIZZERIA</Link>
+       <Link href="/">AGENCYOPS</Link>
         <ul className={styles.list}>
             <li className={styles.listItems}>
-            <Link href="/products/design">DESIGN</Link>
+            <Link href="/">DESIGN</Link>
             </li>
             <li className={styles.listItems}>
-            <Link href="/products/development">DEVELOPMENT</Link>
+            <Link href="/">DEVELOPMENT</Link>
             </li>
             <li className={styles.listItems}>
-            <Link href="/products/production">PRODUCTION</Link>
+            <Link href="/">PRODUCTION</Link>
             </li>
             <li className={styles.listItems}>
-            <Link href="/products/photography">PHOTOGRAPHY</Link>
+            <Link href="/">PHOTOGRAPHY</Link>
             </li>
             <li className={styles.listItems}>
-            <Link href="/products/contact">CONTACT</Link>
+            <Link href="/">CONTACT</Link>
             </li>
 
         </ul>

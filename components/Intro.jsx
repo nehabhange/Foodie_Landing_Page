@@ -8,7 +8,7 @@ function Intro() {
         <Circle backgroundColor="#b0ff49" top="-50vh" left="-50vh"/>
         <Circle backgroundColor="#b0ff49"right="-40vh"/>
         <div className={styles.card}>
-            <h1 className={styles.title}><span className={styles.brand}>AV0CAD0</span>DIGITAL PRODUCT AGENCY</h1>
+            <h1 className={styles.title}><span className={styles.brand}>AGENCY0PS</span>DIGITAL PRODUCT AGENCY</h1>
             <p>Create live segments and target the right people for messages based on their behaviours. </p>
             <button className={styles.button}>DISCOVER</button>
         </div>
