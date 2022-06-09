@@ -8,10 +8,10 @@ function Footer() {
       <div className={styles.card}>
         <h1 className={styles.title}> AGENCYOPS CREATIVES </h1>{" "}
         <h1 className={styles.linkTitle}>
-          <a href="/" passHref>
+         
             <span> WORK WITH US </span>{" "}
             <Image src="/img/link.png" width="40px" height="40px" alt="" />
-          </a>{" "}
+          
         </h1>{" "}
       </div>{" "}
       <div className={styles.cardL}>
