@@ -49,5 +49,6 @@
     align-items: center;
     justify-content: space-around;
       z-index:999;
+      transistion:1s;
   }
 }
