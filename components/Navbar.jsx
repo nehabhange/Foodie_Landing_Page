@@ -1,25 +1,25 @@
 import React from 'react'
 import styles from "../styles/Navbar.module.css"
-import Link from "next/Link"
+
 function Navbar() {
   return (
     <div className={styles.container}>
        <Link href="/">AGENCYOPS</Link>
         <ul className={styles.list}>
             <li className={styles.listItems}>
-            <Link href="/">DESIGN</Link>
+            DESIGN
             </li>
             <li className={styles.listItems}>
-            <Link href="/">DEVELOPMENT</Link>
+           DEVELOPMENT
             </li>
             <li className={styles.listItems}>
-            <Link href="/">PRODUCTION</Link>
+            PRODUCTION
             </li>
             <li className={styles.listItems}>
-            <Link href="/">PHOTOGRAPHY</Link>
+           PHOTOGRAPHY
             </li>
             <li className={styles.listItems}>
-            <Link href="/">CONTACT</Link>
+CONTACT
             </li>
 
         </ul>
