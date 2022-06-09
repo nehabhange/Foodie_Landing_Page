@@ -25,28 +25,28 @@ CONTACT
             </li>
 
         </ul>
- <div className={style.hamburger} onClick={() => setOpen(!open)}>
-        <div className={style.line} />
-        <div className={style.line} />
-        <div className={style.line} />
+ <div className={styles.hamburger} onClick={() => setOpen(!open)}>
+        <div className={styles.line} />
+        <div className={styles.line} />
+        <div className={styles.line} />
       </div>
-      <ul onClick={()=>setOpen(false)} className={style.menu} style={{ right: open ? "0px" : "-50vw" }}>
-        <li className={style.menuItem}>
+      <ul onClick={()=>setOpen(false)} className={styles.menu} style={{ right: open ? "0px" : "-50vw" }}>
+        <li className={styles.menuItem}>
          HOME
         </li>
-        <li className={style.menuItem}>
+        <li className={styles.menuItem}>
          DESIGN
         </li>
-        <li className={style.menuItem}>
+        <li className={styles.menuItem}>
          DEVELOPMENT
         </li>
-        <li className={style.menuItem}>
+        <li className={styles.menuItem}>
           PRODUCTION
         </li>
-        <li className={style.menuItem}>
+        <li className={styles.menuItem}>
           PHOTOGRAPHY
         </li>
-        <li className={style.menuItem}>
+        <li className={styles.menuItem}>
           CONTACT
         </li>
       </ul>
