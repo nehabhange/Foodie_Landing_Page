@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "../styles/Navbar.module.css"
-
+import Link from "next/link";
 function Navbar() {
   return (
     <div className={styles.container}>
