@@ -52,7 +52,7 @@ CONTACT
     </div>
 
 
-    </div>
+    
   )
 }
 
