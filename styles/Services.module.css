@@ -86,12 +86,13 @@
 @media screen and (max-width:480px) {
     .container {
         padding: 20px;
+        height: auto;
     }
     .services {
         justify-content: center;
     }
     .service {
-        width: 500x;
-        height: 500px;
+        width: 300x;
+        height: 300px;
     }
 }
